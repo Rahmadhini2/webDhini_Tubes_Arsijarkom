@@ -1,0 +1,95 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+/* Header styles */
+header {
+    background-color: #760d4a;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    border-radius: 5px 5px 0 0;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header p {
+    margin: 5px 0;
+}
+
+/* Profile section styles */
+.profile {
+    text-align: center;
+    margin: 10px 0;
+}
+
+.profile img {
+    border-radius: 100%;
+    width: 150px;
+    height: 200px;
+    object-fit: cover;
+}
+
+/* Devices section styles */
+.devices {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 0 0 5px 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.devices h2 {
+    text-align: center;
+}
+
+.devices article {
+    margin: 20px 0;
+}
+
+.devices img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.devices p {
+    margin: 10px 0;
+}
+
+.devices p strong {
+    font-weight: bold;
+}
+
+/* Footer styles */
+footer {
+    background-color: #760d4a;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+    border-radius: 0 0 5px 5px;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
